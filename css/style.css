@@ -1,3 +1,34 @@
+@font-face {
+    font-family: 'montserratbold';
+    src: url('../fonts/montserrat-bold-webfont.woff2') format('woff2'),
+         url('../fonts/montserrat-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'montserratregular';
+    src: url('../fonts/montserrat-regular-webfont.woff2') format('woff2'),
+         url('../fonts/montserrat-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'montserratregular', Arial, sans-serif;
+}
+
+.font-bold {
+    font-family: 'montserratbold', Arial, sans-serif;
+    font-weight: normal;
+}
+
+strong,
+b {
+    font-family: 'montserratbold', Arial, sans-serif;
+    font-weight: normal;
+}
+
 #wrapper{width: 100%; height:auto;}
 .header-fixed {
   position: fixed !important;
@@ -10,6 +41,11 @@
 .header-fixed .bg-dark {
   background-color: rgba(0, 0, 0, 0.8) !important;
 }
+
+.header-fixed .bg-dark-top {
+  background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
 .btn-green {
   background-color: var(--btn-green);
   font-size: 18px;
@@ -43,6 +79,38 @@
 .navbar .nav-link:focus {
   color: #7ab42c;
   border-bottom-color: #7ab42c;
+}
+
+@media (max-width: 991.98px) {
+  .navbar {
+    position: relative;
+  }
+
+  .navbar-collapse {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    left: auto;
+    z-index: 1050;
+    min-width: 220px;
+    padding: 10px 0;
+    background-color: rgba(0, 0, 0, 0.95);
+    border-radius: 8px;
+  }
+
+  .navbar-collapse .navbar-nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar-collapse .nav-item {
+    width: 100%;
+  }
+
+  .navbar-collapse .nav-link {
+    display: block;
+    padding: 10px 20px;
+  }
 }
 
 .fs-14{font-size: 14px;}
