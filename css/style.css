@@ -56,6 +56,9 @@ b {
 }
 .btn-green:hover{background-color: #7ab42c; color: var(--bs-white);}
 
+.lightGreenBg{background-color: var(--bs-lightGreen);}
+.textGreen{color: var(--btn-green);}  
+
 
 .btn-green-small {
   background-color: var(--btn-green);
@@ -124,7 +127,12 @@ b {
 .fs-40{ font-size: 40px;}
 .fs-50{ font-size: 50px;}
 
+.mt-20{margin-top: 20px;}
 .mt-40{margin-top: 40px;}
+.mt-80{margin-top: 80px;}
+
+.px-100{ padding-left: 100px; padding-right: 100px;}
+.p-40{ padding: 40px;}
 
 .mb-sm-20 {
   margin-bottom: 20px;
@@ -197,6 +205,20 @@ b {
   min-height: 320px;
 }
 
+
+.FoodNDinningBg {
+  background-image: url('../images/food-and-dinning-img.png');
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+.FoodNDinningBg .lightGreenBg {
+  margin-top: 220px;
+  left: 100px;
+  right: 100px;
+}
+
+
 @media (max-width: 575.98px) {
   .rat1,
   .rat2,
@@ -209,4 +231,8 @@ b {
     flex: 0 0 100%;
     max-width: 100%;
   }
+
+ 
 }
+
+
