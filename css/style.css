@@ -139,6 +139,8 @@ b {
   margin-bottom: 20px;
 }
 
+.borderRadius16{ border-radius:16px;}
+
 @media (max-width: 575.98px) {
   .mb-sm-20 {
     margin-bottom: 20px;
