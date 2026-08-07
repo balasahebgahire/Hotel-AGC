@@ -133,6 +133,7 @@ b {
 
 .px-100{ padding-left: 100px; padding-right: 100px;}
 .p-40{ padding: 40px;}
+.px-100-box{ padding-left: 100px; padding-right: 100px;}
 
 .mb-sm-20 {
   margin-bottom: 20px;
@@ -231,8 +232,6 @@ b {
     flex: 0 0 100%;
     max-width: 100%;
   }
-
- 
+ .px-100-box{ padding-left: 20px; padding-right: 20px;}
 }
-
 
