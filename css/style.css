@@ -221,6 +221,17 @@ b {
   right: 100px;
 }
 
+.gapCustom-2 {
+  gap: 0.5rem !important;
+}
+.gapCustom-4 {
+  gap: 1.5rem !important;
+}
+
+.text-center-ctm{
+  text-align: left;
+}
+
 
 @media (max-width: 575.98px) {
   .rat1,
@@ -235,5 +246,14 @@ b {
     max-width: 100%;
   }
  .px-100-box{ padding-left: 20px; padding-right: 20px;}
+
+ .gapCustom-4 {
+  gap: 0.4rem !important;
+}
+
+.text-center-ctm{
+  text-align: center;
+}
+
 }
 
