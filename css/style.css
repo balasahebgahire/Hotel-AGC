@@ -255,6 +255,8 @@ b {
   text-align: center;
 }
 
+.nav-item a.nav-link{ font-size: 14px;}
+
 /* FontSizes */
 .fs-22{ font-size: 18px;}
 .fs-34{ font-size: 24px;}
